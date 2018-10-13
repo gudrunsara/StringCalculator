@@ -8,6 +8,18 @@ function add(numbers){
     // split on \n and comma: 
     var numberArray = numbers.split(/[\n\","]/);
 
+/* --------------------------------
+  Tried to implement the 8th test: 
+  if(numberArray[0].includes("//"))
+    {
+      var customDelimeter = numberArray[0].split(/["//"]/)
+      for(var i = 0; i < numberArray.length; i++)
+      {
+        numberArray.split(/[\n\","\customDelimeter]/);
+      }
+    }
+   -------------------------------- */
+   
     // Removing all numbers bigger than 1000:
     biggerThanThousand(numberArray);
 

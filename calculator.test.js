@@ -41,4 +41,12 @@ it("should ignore numbers bigger than 1000", () => {
 });
 
 
+// 8. test
+/*
+it("should allow custom delimiter", () => {
+  expect(add("//;\n1;2")).toBe(3);
+});
+*/
+
+
 
