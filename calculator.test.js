@@ -29,3 +29,8 @@ it("should handle new lines between numbers", () => {
 });
 
 
+// 6. test
+it("should throw exception on negative numbers", () => {
+  expect(add("-1,2")).toBe("Negatives not allowed: -1");
+});
+
