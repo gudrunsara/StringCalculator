@@ -8,6 +8,9 @@ function add(numbers){
     // split on \n and comma: 
     var numberArray = numbers.split(/[\n\","]/);
 
+    // Removing all numbers bigger than 1000:
+    biggerThanThousand(numberArray);
+
     // Checking for negative numbers:
     negativeNrsArray = negativeNumbers(numberArray);
 
@@ -48,5 +51,21 @@ function negativeNumbers(numberArray)
   }
   return negativeArray;
 }
+
+// Removes all numbers bigger than 1000 from array: 
+function biggerThanThousand(numberArray)
+{
+  for(var i=0 ; i < numberArray.length ; i++)
+  {
+    if(numberArray[i] > 1000)
+    {
+      // Removing the element over 1000 with splice function:
+      numberArray.splice(i, 1);
+    }
+  }
+
+} 
+
+
 
 module.exports = add;
