@@ -1,0 +1,22 @@
+{
+  "name": "tddproject",
+  "version": "1.0.0",
+  "description": "Project 8 in HUGB  Guðrún Sara Örnólfsdóttir - gudrunso17@ru.is",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gudrunsara/StringCalculator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gudrunsara/StringCalculator/issues"
+  },
+  "homepage": "https://github.com/gudrunsara/StringCalculator#readme",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
